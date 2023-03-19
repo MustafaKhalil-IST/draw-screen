@@ -9,8 +9,8 @@ function App() {
               justifyContent:'center', 
               gap:'1.5rem', 
               padding: '5rem' }}>
-      <p>Wow, look at this component library.</p>
-      <DrawScreen />
+      <p>Wow, look at this screen</p>
+      <DrawScreen width="500px" height="250px" showClear showCapture/>
     </div>
   );
 }
